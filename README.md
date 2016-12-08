@@ -23,5 +23,7 @@ Then open the proyect and you are ready.
 
 **After** switching from to master, run the command `git submodule update`.
 
+In **any case** after switching branches is recommended to `git clean -Xid`,
+otherwise weird errors may arise.
 
 [import-library]: ../../tree/import-library
