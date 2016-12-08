@@ -16,5 +16,12 @@ git clone --recursive https://aaronps@github.com/aaronps/touchjoystick-demo
 
 Then open the proyect and you are ready.
 
+## Switching branches
+
+**When** switching from master to [import-library] delete manually the
+`touchjoystick` folder.
+
+**After** switching from to master, run the command `git submodule update`.
+
 
 [import-library]: ../../tree/import-library
