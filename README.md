@@ -1,6 +1,6 @@
 # Touch Joystick Demo
 
-This is a demo for using [touchjoystick](/aaronps/touchjoystick), it comes with
+This is a demo for using [touchjoystick], it comes with
 two branches:
 
 * __master__ -> uses `git submodule` to import the library
@@ -11,7 +11,7 @@ two branches:
 Clone like this:
 
 ```
-git clone --recursive https://aaronps@github.com/aaronps/touchjoystick-demo
+git clone --recursive https://github.com/aaronps/touchjoystick-demo
 ```
 
 Then open the proyect and you are ready.
@@ -26,4 +26,5 @@ Then open the proyect and you are ready.
 In **any case** after switching branches is recommended to `git clean -Xid`,
 otherwise weird errors may arise.
 
+[touchjoystick]: https://github.com/aaronps/touchjoystick
 [import-library]: ../../tree/import-library
